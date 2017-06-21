@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="UnscentedKF" />
+		<Option makefile_is_custom="1" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="CMake Files/;" />
+		<Build>
+			<Target title="all">
+				<Option output="UnscentedKF" prefix_auto="0" extension_auto="0" />
+				<Option object_output="/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/.objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/data/sample-laser-radar-measurement-data-2.txt /media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/data/output.txt" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 all' />
+					<CompileFile command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 edit_cache' />
+					<CompileFile command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 rebuild_cache' />
+					<CompileFile command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="UnscentedKF">
+				<Option output="/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/UnscentedKF" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/usr/include" />
+					<Add directory="/usr/include/c++/5" />
+					<Add directory="/usr/include/c++/5/backward" />
+					<Add directory="/usr/include/x86_64-linux-gnu" />
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+					<Add directory="/usr/local/include" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 UnscentedKF' />
+					<CompileFile command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="UnscentedKF/fast">
+				<Option output="/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/UnscentedKF" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/usr/include" />
+					<Add directory="/usr/include/c++/5" />
+					<Add directory="/usr/include/c++/5/backward" />
+					<Add directory="/usr/include/x86_64-linux-gnu" />
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+					<Add directory="/usr/local/include" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 UnscentedKF/fast' />
+					<CompileFile command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/media/frank/Zusatz/CarND-Unscented-Kalman-Filter-Project-master/build/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="../CMakeLists.txt">
+			<Option virtualFolder="CMake Files/" />
+		</Unit>
+		<Unit filename="../src/main.cpp">
+			<Option target="UnscentedKF" />
+		</Unit>
+		<Unit filename="../src/tools.cpp">
+			<Option target="UnscentedKF" />
+		</Unit>
+		<Unit filename="../src/tools.h">
+			<Option target="UnscentedKF" />
+		</Unit>
+		<Unit filename="../src/ukf.cpp">
+			<Option target="UnscentedKF" />
+		</Unit>
+		<Unit filename="../src/ukf.h">
+			<Option target="UnscentedKF" />
+		</Unit>
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
